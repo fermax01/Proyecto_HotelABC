@@ -1,0 +1,14 @@
+﻿<Window x:Class="Proyecto_HotelABC.Views.ManagerViews.ManagerMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_HotelABC.Views.ManagerViews"
+        mc:Ignorable="d"
+        Title="ManagerMenu" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="BTN_ManageEmployees" Content="Gestionar Cuentas" HorizontalAlignment="Left" Height="74" Margin="78,108,0,0" VerticalAlignment="Top" Width="154" Click="BTN_ManageEmployees_Click"/>
+        <Label Content="VISTA DE GERENTE" HorizontalAlignment="Left" Margin="278,23,0,0" VerticalAlignment="Top" Height="55" Width="266" FontSize="30"/>
+
+    </Grid>
+</Window>
