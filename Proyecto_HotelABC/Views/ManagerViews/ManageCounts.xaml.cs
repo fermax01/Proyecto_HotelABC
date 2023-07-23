@@ -78,6 +78,7 @@ namespace Proyecto_HotelABC.Views.ManagerViews
             TXT_Mail.Text = count.Mail.ToString();
             TXT_PhoneNumber.Text = count.PhoneNumber.ToString();
             TXT_Password.Text = count.Password.ToString();
+            SelectRol.SelectedItem = count.FkRole;
 
         }
 
@@ -125,6 +126,31 @@ namespace Proyecto_HotelABC.Views.ManagerViews
             TXT_Mail.Clear();
             TXT_PhoneNumber.Clear();
             TXT_Password.Clear();
+        }
+
+        private void BTN_FilterByEmployee_Click(object sender, RoutedEventArgs e)
+        {
+            // Realizar el filtrado por empleado
+            FilterCountsByRole("Empleado");
+        }
+
+        private void BTN_FilterByGuest_Click(object sender, RoutedEventArgs e)
+        {
+            // Realizar el filtrado por huésped
+            FilterCountsByRole("Huesped");
+        }
+
+        private void FilterCountsByRole(string role)
+        {
+            List<Count> filteredCounts = services.GetCounts().Where(c => c.Roles.Name == role).ToList();
+            CountsTable.ItemsSource = filteredCounts;
+        }
+
+        private void BTN_SignOff_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow login = new MainWindow();
+            Close();
+            login.Show();
         }
     }
 }

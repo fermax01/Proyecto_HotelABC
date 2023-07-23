@@ -23,5 +23,19 @@ namespace Proyecto_HotelABC.Views.EmployeeViews
         {
             InitializeComponent();
         }
+
+        private void BTN_ManageGuest_Click(object sender, RoutedEventArgs e)
+        {
+            ManageGuest manageguest = new ManageGuest();
+            Close();
+            manageguest.Show();
+        }
+
+        private void BTN_SignOff_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow login = new MainWindow();
+            Close();
+            login.Show();
+        }
     }
 }

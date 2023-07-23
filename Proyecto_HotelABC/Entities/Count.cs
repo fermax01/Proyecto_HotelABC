@@ -21,7 +21,7 @@ namespace Proyecto_HotelABC.Entities
 
 
         [ForeignKey("Roles")]
-        public int FkRole { get; set; }
+        public int? FkRole { get; set; }
         public Role Roles { get; set; }
     }
 }

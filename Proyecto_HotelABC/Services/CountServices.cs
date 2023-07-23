@@ -32,7 +32,7 @@ namespace Proyecto_HotelABC.Services
                     res.Mail = request.Mail;
                     res.PhoneNumber = request.PhoneNumber;
                     res.Password = request.Password;
-                    res.FkRole = request.FkRole;
+                    res.FkRole = request.FkRole ?? 3; // Establecer 3 como valor predeterminado si request.FkRole es nulo
 
                     _context.Counts.Add(res);
                     _context.SaveChanges();
@@ -40,7 +40,7 @@ namespace Proyecto_HotelABC.Services
             }
             catch (Exception ex)
             {
-                throw new Exception("Sucedió un error (AddLibrarian)" + ex.Message);
+                throw new Exception("Sucedió un error (AddCount)" + ex.Message);
             }
         }
 
@@ -72,7 +72,7 @@ namespace Proyecto_HotelABC.Services
             }
             catch (Exception ex)
             {
-                throw new Exception("Sucedió un error (UpdateLibrarian)" + ex.Message);
+                throw new Exception("Sucedió un error (UpdateCount)" + ex.Message);
             }
         }
 
@@ -94,7 +94,7 @@ namespace Proyecto_HotelABC.Services
             }
             catch (Exception ex)
             {
-                throw new Exception("Sucedió un error (DeleteLibrarian)" + ex.Message);
+                throw new Exception("Sucedió un error (DeleteCount)" + ex.Message);
             }
         }
 
@@ -114,7 +114,7 @@ namespace Proyecto_HotelABC.Services
             }
             catch (Exception ex)
             {
-                throw new Exception("Sucedió un error (GetLibrarians)" + ex.Message);
+                throw new Exception("Sucedió un error (GetCount)" + ex.Message);
             }
         }
 

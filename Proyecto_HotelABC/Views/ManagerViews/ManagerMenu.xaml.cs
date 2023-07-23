@@ -30,5 +30,12 @@ namespace Proyecto_HotelABC.Views.ManagerViews
             Close();
             manageemployees.Show();
         }
+
+        private void BTN_SignOff_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow login = new MainWindow();
+            Close();
+            login.Show();
+        }
     }
 }

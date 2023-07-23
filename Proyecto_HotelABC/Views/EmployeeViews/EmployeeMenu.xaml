@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="EmployeeMenu" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Vista empleado (recepcionista)" HorizontalAlignment="Left" Height="60" Margin="228,23,0,0" VerticalAlignment="Top" Width="427" FontSize="30"/>
+        <Button x:Name="BTN_ManageGuest" Content="Gestionar Huespedes" HorizontalAlignment="Left" Height="67" Margin="60,105,0,0" VerticalAlignment="Top" Width="148" Click="BTN_ManageGuest_Click" />
+        <Button x:Name="BTN_SignOff" Content="Cerrar Sesión" HorizontalAlignment="Left" Margin="696,393,0,0" VerticalAlignment="Top" Click="BTN_SignOff_Click"/>
+
+
     </Grid>
 </Window>
