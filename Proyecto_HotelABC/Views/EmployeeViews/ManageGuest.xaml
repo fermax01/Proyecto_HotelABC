@@ -155,7 +155,7 @@
         </DataGrid>
         <Button x:Name="BTN_GoBack" Content="Regresar" HorizontalAlignment="Left" Height="24" Margin="715,17,0,0" VerticalAlignment="Top" Width="61" Click="BTN_GoBack_Click"/>
         <Button x:Name="BTN_Clear" Content="Limpiar" HorizontalAlignment="Left" Height="30" Margin="31,478,0,0" VerticalAlignment="Top" Width="108" Click="BTN_Clear_Click"/>
-        <Button x:Name="BTN_SignOff" Content="Cerrar Sesión" HorizontalAlignment="Left" Margin="702,534,0,0" VerticalAlignment="Top" Click="BTN_SignOff_Click"/>
+        <Button x:Name="BTN_SignOff" Content="Cerrar Sesión" HorizontalAlignment="Left" Margin="9,8,0,0" VerticalAlignment="Top" Click="BTN_SignOff_Click"/>
 
 
 

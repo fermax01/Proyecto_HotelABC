@@ -68,7 +68,7 @@ namespace Proyecto_HotelABC
                 EmployeeMenu employeemenu = new EmployeeMenu();
                 Close();
                 employeemenu.Show();
-            }else if(role.Roles.Name == "HUesped")
+            }else if(role.Roles.Name == "Huesped")
             {
                 GuestMenu guestmenu = new GuestMenu();
                 Close();
@@ -88,6 +88,13 @@ namespace Proyecto_HotelABC
                 // Ejecutar el código del botón de login (BTN_Login_Click)
                 BTN_Login_Click(sender, e);
             }
+        }
+
+        private void BTN_CheckIn_Click(object sender, RoutedEventArgs e)
+        {
+            CheckIn checkin = new CheckIn();
+            Close();
+            checkin.Show();
         }
     }
 }

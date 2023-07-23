@@ -9,7 +9,7 @@
     <Grid>
         <Button x:Name="BTN_ManageEmployees" Content="Gestionar Cuentas" HorizontalAlignment="Left" Height="74" Margin="78,108,0,0" VerticalAlignment="Top" Width="154" Click="BTN_ManageEmployees_Click"/>
         <Label Content="VISTA DE GERENTE" HorizontalAlignment="Left" Margin="278,23,0,0" VerticalAlignment="Top" Height="55" Width="266" FontSize="30"/>
-        <Button x:Name="BTN_SignOff" Content="Cerrar Sesión" HorizontalAlignment="Left" Height="29" Margin="638,384,0,0" VerticalAlignment="Top" Width="116" Click="BTN_SignOff_Click"/>
+        <Button x:Name="BTN_SignOff" Content="Cerrar Sesión" HorizontalAlignment="Left" Height="29" Margin="630,352,0,0" VerticalAlignment="Top" Width="116" Click="BTN_SignOff_Click"/>
 
     </Grid>
 </Window>

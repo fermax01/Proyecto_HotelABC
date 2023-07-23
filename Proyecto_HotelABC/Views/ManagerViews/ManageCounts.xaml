@@ -159,7 +159,7 @@
         <Button x:Name="BTN_Clear" Content="Limpiar" HorizontalAlignment="Left" Height="30" Margin="31,478,0,0" VerticalAlignment="Top" Width="108" Click="BTN_Clear_Click"/>
         <Button x:Name="BTN_FilterByEmployee" Content="Filtrar Empleados" HorizontalAlignment="Left" Margin="183,21,0,0" VerticalAlignment="Top" Click="BTN_FilterByEmployee_Click"/>
         <Button x:Name="BTN_FilterByGuest" Content="Filtrar Huespedes" HorizontalAlignment="Left" Margin="310,21,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.215,-0.098" Click="BTN_FilterByGuest_Click"/>
-        <Button x:Name="BTN_SignOff" Content="Cerrar Sesión" HorizontalAlignment="Left" Margin="666,533,0,0" VerticalAlignment="Top" Click="BTN_SignOff_Click"/>
+        <Button x:Name="BTN_SignOff" Content="Cerrar Sesión" HorizontalAlignment="Left" Margin="9,8,0,0" VerticalAlignment="Top" Click="BTN_SignOff_Click"/>
 
 
 

@@ -162,6 +162,8 @@
                         </Button.Template>
                     </Button>
                 </StackPanel>
+                <Label Content="¿No tienes una cuenta?" HorizontalAlignment="Left" Margin="273,348,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold" Foreground="White"/>
+                <Button x:Name="BTN_CheckIn" Content="Registrate" HorizontalAlignment="Left" Margin="418,351,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-0.48,0.102" Background="{x:Null}" Foreground="#FFFFFCFC" BorderBrush="#FFF7F2F2" BorderThickness="0,0,0,2" Click="BTN_CheckIn_Click"/>
             </Grid>
         </Border>
     </Border>
