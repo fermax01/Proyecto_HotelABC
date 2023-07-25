@@ -3,7 +3,7 @@ using MySql.EntityFrameworkCore.Metadata;
 
 namespace Proyecto_HotelABC.Migrations
 {
-    public partial class example : Migration
+    public partial class EXAMPLE : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
